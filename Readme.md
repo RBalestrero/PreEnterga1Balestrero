@@ -1,5 +1,17 @@
-# Tema del proyecto integrador - Ticketera de casos
-Para este proyecto integrador decidí optar por una página que funcione como una ticketera, la funcion de la misma es poder contactar con el área de soporte técnico de una empresa para poder resolver incidentes. La ticketera solicitara al cliente los distintos datos relevantes para realizar la apertura de un caso. El soporte técnico estará orientado a la resolución de problemas relacionados con impresoras.
+# Tema del proyecto integrador - Cotizacion de impresoras
+Para este proyecto integrador decidí optar por un programa de cotizacion para una empresa que vende impresoras, realizando un menu interactivo con el usuario que le permita optar por 2 opciones.
 
 ## Objetivos
-El objetivo de la primera entrega es mostrar un menu en pantalla que le solicite al usuario poder crear un ticket nuevo, cargar los datos solicitados. Ademas podrá ver si tiene casos pendientes de resolución y casos que ya se hayan cerrado.
+El objetivo es implementar en el proyecto lo aprendido hasta la clase 4 incluida. Incorporando condicionales, ciclos y funciones.
+
+1. Realizar la cotizacion de la impresora calculando
+    - El valor base de la impresora.
+    - Se le dio la posibilidad de aplicar un cupon de descuento (codigo) "BLACKFRIDAY" o "MOTHERSDAY".
+    - Impuesto (IVA).
+2. Cargar los datos para ser contactado por un representante
+    - nombre.
+    - Apellido.
+    - Mail.
+    - Celular.
+    - Breve descripcion.
+    - Confirmacion de que los datos ingresados sean los correctos.
