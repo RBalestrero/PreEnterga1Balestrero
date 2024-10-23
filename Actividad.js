@@ -9,7 +9,6 @@ const cotizar = precio => {
     else if(!cupon)
         alert(`Precio de la impresora: $${precio}\nImpuestos: $${precio*0.21} (IVA % 21)\nDescuentos: -\n\nPrecio final: $${precio + (precio * 0.21)}`);
 }
-
 const cotizarImpresora = () => {
     const pZebra = 3500;
     const pHid = 1300;
@@ -42,11 +41,12 @@ const enviarConsulta = () => {
     alert('Sus datos fueron cargador con exito, a la brevedad un representante se estara comunicando con usted');   
 }
 
-let selec;
+let selec = 0;
 
 do{
-    selec = Number(prompt('Ingrese una de las siguientes opciones:\n1. Cotizar impresora.\n2. Enviar una consulta\n3. Salir del menu'));
+    selec = Number(prompt('Ingrese una de las siguientes opciones:\n1. Cotizar impresora\n2. Enviar una consulta\n3. Salir del menu'));
     switch(selec){
+        case 0:     break;
         case 1:     cotizarImpresora();
                     break;
         case 2:     enviarConsulta();
@@ -55,4 +55,4 @@ do{
         default:    alert('La opcion seleccionada no es correcta, vuelva a introducir una opcion valida');
                     break;
     }
-}while(selec != 3);
+}while(selec != 3 && selec != 0);
